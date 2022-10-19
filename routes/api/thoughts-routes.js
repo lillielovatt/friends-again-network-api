@@ -1,3 +1,5 @@
+const router = require("express").Router();
+
 // GET all thoughts
 
 // GET a single thought by id
