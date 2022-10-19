@@ -1,0 +1,22 @@
+{
+  "name": "friends-again-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lillielovatt/friends-again-network-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lillielovatt/friends-again-network-api/issues"
+  },
+  "homepage": "https://github.com/lillielovatt/friends-again-network-api#readme",
+  "dependencies": {
+    "mongoose": "^6.6.5"
+  }
+}
