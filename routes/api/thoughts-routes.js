@@ -1,4 +1,5 @@
 const router = require("express").Router();
+const Thought = require("../../models/Thought");
 
 // GET all thoughts
 
@@ -14,3 +15,5 @@ const router = require("express").Router();
 // POST create reaction /:thoughtId
 
 // DELETE pull/remove reaction by reactionId value /:thoughtId
+
+module.exports = router;
