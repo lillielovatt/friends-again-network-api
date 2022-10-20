@@ -3,7 +3,7 @@ const User = require("../../models/User");
 const router = require("express").Router();
 
 //GET all users
-router.get("", (req, res) => {
+router.get("/", (req, res) => {
     User.find() //equivalent to sequelize's findAll
         .select("-__v")
         .then((dbUserData) => res.json(dbUserData))
